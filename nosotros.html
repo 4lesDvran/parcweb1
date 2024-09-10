@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Vehicle Dealership</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Header and Navigation -->
+    <header class="bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">Vehicle Dealership</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="vehiculos.html">Garaje</a></li>
+                    <li class="nav-item"><a class="nav-link" href="formula.html">Test Drive</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <h2>Nosotros</h2>
+
+        <!-- Acordeon d ela empresa -->
+        <div id="enterpriseAccordion" class="accordion mb-4">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Quíenes Somos
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#enterpriseAccordion">
+                    <div class="card-body">
+                        Somos un grupo lider en la venta de automoviles con mas de 23 año0s de experiecia dedicados a dar el mejor servicio
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Objetivos
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#enterpriseAccordion">
+                    <div class="card-body">
+                        Nuestro objetivo es darles una buena experiencia de ventas a nuestros usuarios
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Metas
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#enterpriseAccordion">
+                    <div class="card-body">
+                        Expandir nuestras redes, sedes y servicios a todo el pais con la ultima tecnologia y alto recnocimiento a nivel nacional
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Información de Empleados -->
+        <h3>Nuestro Equipo</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/ales.jfif" class="card-img-top" alt="Employee 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Alejandro Saenz</h5>
+                        <p class="card-text">Fundador</p>
+                        <a href="https://facebook.com/ales" class="btn btn-primary">Facebook</a>
+                        <a href="https://twitter.com/ales" class="btn btn-info">Twitter</a>
+                        <a href="https://linkedin.com/in/ales" class="btn btn-dark">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/jorge.jfif" class="card-img-top" alt="Employee 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Jorge Isaacs</h5>
+                        <p class="card-text">Financiero</p>
+                        <a href="https://facebook.com/jorge" class="btn btn-primary">Facebook</a>
+                        <a href="https://twitter.com/jorge" class="btn btn-info">Twitter</a>
+                        <a href="https://linkedin.com/in/jorge" class="btn btn-dark">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/gloria.jfif" class="card-img-top" alt="Employee 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Gloria Perez Torrez</h5>
+                        <p class="card-text">Consulta</p>
+                        <a href="https://facebook.com/gloria" class="btn btn-primary">Facebook</a>
+                        <a href="https://twitter.com/gloria" class="btn btn-info">Twitter</a>
+                        <a href="https://linkedin.com/in/gloria" class="btn btn-dark">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Contáctenos: 345 231 4433 | Calle 5 #2-13 | Lun-Vie: 9 AM - 6 PM</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

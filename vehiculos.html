@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicles - Vehicle Dealership</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Header-->
+    <header class="bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">Vehicle Dealership</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="formula.html">Test Drive</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4">
+        <h2>Vehicles by Maker</h2>
+
+        <!-- Busqueda -->
+        <input type="text" id="searchBar" class="form-control mb-4" placeholder="Search for vehicles by model or maker">
+
+        <!-- Categorías -->
+        <div class="vehicle-category mb-4">
+            <h3>Toyota</h3>
+            <div class="d-flex flex-wrap">
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="img/car.jpg" class="card-img-top" alt="Toyota Model 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Toyota Model 2000</h5>
+                        <p class="card-text">Alto cilidraje, potencia, 4x4.</p>
+                    </div>
+                </div>
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="img/car2.jpg" class="card-img-top" alt="Toyota Model 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Toyota Model 21</h5>
+                        <p class="card-text">Description of Toyota Model 2.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vehicle-category mb-4">
+            <h3>Ford</h3>
+            <div class="d-flex flex-wrap">
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="img/car3.jpg" class="card-img-top" alt="Ford Model 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ford Model 2013</h5>
+                        <p class="card-text">Description of Ford Model 1.</p>
+                    </div>
+                </div>
+                <div class="card m-2" style="width: 18rem;">
+                    <img src="img/car4.jpg" class="card-img-top" alt="Ford Model 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ford Model 1923</h5>
+                        <p class="card-text">Description of Ford Model 2.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Contáctenos: 345 231 4433 | Calle 5 #2-13 | Lun-Vie: 9 AM - 6 PM</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
