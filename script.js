@@ -42,17 +42,17 @@ form.addEventListener('submit', function(event) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!nameRegex.test(firstName) || !nameRegex.test(lastName)) {
-        alert('Invalid name or surname. Only letters are allowed.');
+        alert('Nombre invalido.');
         return;
     }
 
     if (!emailRegex.test(email)) {
-        alert('Invalid email address.');
+        alert('Email invalido.');
         return;
     }
 
     if (!phoneRegex.test(phone)) {
-        alert('Phone number must start with 3 and have 10 digits.');
+        alert('10 digitos empezando por 3.');
         return;
     }
 
@@ -60,7 +60,7 @@ form.addEventListener('submit', function(event) {
     emailUsageCount[email] = (emailUsageCount[email] || 0) + 1;
 
     // Alert y consola, la informacion se almacena en la consola
-    alert('Information submitted successfully!');
+    alert('Informacion enmviada');
     console.log(`Submitted Data: 
         First Name: ${firstName}, 
         Last Name: ${lastName}, 
